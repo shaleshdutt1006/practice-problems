@@ -1,3 +1,5 @@
+package com.bridgelabz1;
+
 import java.util.Scanner;
 
 public class ReverseOfNumber {
