@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz2;
 
 import java.util.Scanner;
 
@@ -25,23 +25,20 @@ public class StrongNumber {
 
         }
         flag = sum == number;
-        return  flag;
+        return flag;
     }
-
-
 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number you want to check ");
         int number = sc.nextInt();
-    if (isStrongNumber(number)){
-        System.out.println(number + " is a Strong Number");
+        if (isStrongNumber(number)) {
+            System.out.println(number + " is a Strong Number");
 
-    }else {
-        System.out.println(number + " is not a Strong Number");
-    }
-
+        } else {
+            System.out.println(number + " is not a Strong Number");
+        }
 
 
     }
