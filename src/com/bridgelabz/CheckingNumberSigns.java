@@ -2,8 +2,7 @@ package com.bridgelabz;
 
 import java.util.Scanner;
 
-public class CheckEvenOrOdd {
-
+public class CheckingNumberSigns {
 
     public static void main(String args[]) {
 
@@ -12,11 +11,13 @@ public class CheckEvenOrOdd {
         Scanner myObj = new Scanner(System.in);
 
         int number = myObj.nextInt();
-        if (number % 2 == 0) {
-            System.out.println("this is a Even Number");
-        } else {
-            System.out.println("this is a Odd Number");
-        }
+        if (number < 0) {
+            System.out.println("this is Negative Number");
+        } else if (number > 0) {
+            System.out.println("this is positive Number");
 
+        } else {
+            System.out.println("The number is zero");
+        }
     }
 }
