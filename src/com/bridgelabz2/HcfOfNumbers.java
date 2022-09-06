@@ -13,7 +13,7 @@ public class HcfOfNumbers {
         System.out.println("Enter  Second number ");
         int number2 = sc.nextInt();
 
-        for (int i = 1; i <= number1 || i < number2; i++) {
+        for (int i = 1; i <= number1 || i <= number2; i++) {
             {
                 if (number1 % i == 0 && number2 % i == 0) {
                     hcf = i;
