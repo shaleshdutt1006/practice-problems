@@ -15,7 +15,8 @@ public class PrimeNumberWithInRange {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter range you want to get prime numbers up to ");
+        System.out.println("Enter range you want to take prime numbers up to ");
+
         int number = scanner.nextInt();
 
         for (int i = 2; i <= number; i++) {
